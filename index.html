@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration Form</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <form>
+      <fieldset>
+        <legend>Registration</legend>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="event">Event:</label>
+        <select id="event" name="event" required>
+          <option value="">Select an event</option>
+          <option value="event1">Event 1</option>
+          <option value="event2">Event 2</option>
+          <option value="event3">Event 3</option>
+        </select>
+        
+        <label for="time">Time:</label>
+        <select id="time" name="time" required>
+          <option value="">Select a time</option>
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+        </select>
+        
+        <input type="submit" value="Register">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
